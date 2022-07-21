@@ -10,107 +10,69 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div class="border-bottom">
         <div class="container">
             <header class="cabecalho">
-                <h1>Weartake </h1>
+                <div>
+                    <img src="./img/logo.jpeg" alt="" class="logoimg">
+                    <h1 class="logo">Jeitinho</h1><h1 class="logo2">Brasileiro</h1>
+                </div>
+                
                 <nav class="menu">
                     <button class="opcoesMenu" id="todos">Todos</button>
-                    <button class="opcoesMenu">Acessórios</button>
-                    <button class="opcoesMenu">Calçados</button>
-                    <button class="opcoesMenu">Camisetas</button>
+                    <button class="opcoesMenu">Pratos</button>
+                    <button class="opcoesMenu">Salgados</button>
+                    <button class="opcoesMenu">Doces</button>
                 </nav>
             </header>
         </div>
     </div>
+
         <div class="container">
             <main class="containerMain">
                 <div class="containerCards">
-                    <section class="acessorios">
-                        <ul class="cards">
-                            <li class="card">
-                                <img src="./img/jaqueta.svg" alt="">
-                                <p class="categoria">Camisetas</p>
-                                <h2 class="nome">Lightweight Jacket</h2>
-                                <p class="descricao">Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
-                                <p class="preco">R$ 100.00</p>
-                                <button class="botaoAdicionar">Adicionar ao carrinho</button>
-                            </li>
-                            <li class="card">
-                                <img src="./img/mascara.svg" alt="">
-                                <p class="categoria">Camisetas</p>
-                                <h2 class="nome">Lightweight Jacket</h2>
-                                <p class="descricao">Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
-                                <p class="preco">R$ 100.00</p>
-                                <button class="botaoAdicionar">Adicionar ao carrinho</button>
-                            </li>
-                            <li class="card">
-                                <img src="./img/moletom.svg" alt="">
-                                <p class="categoria">Camisetas</p>
-                                <h2 class="nome">Lightweight Jacket</h2>
-                                <p class="descricao">Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
-                                <p class="preco">R$ 100.00</p>
-                                <button class="botaoAdicionar">Adicionar ao carrinho</button>
-                            </li>
-                        </ul>
+                    <section class="todos">
+                        <ul class="cards"></ul>
                     </section>
-                    <section class="calcados">
-                        <ul class="cards">
-                            <li class="card">
-                                <img src="./img/camiseta_branca.svg" alt="">
-                                <p class="categoria">Camisetas</p>
-                                <h2 class="nome">Lightweight Jacket</h2>
-                                <p class="descricao">Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
-                                <p class="preco">R$ 100.00</p>
-                                <button class="botaoAdicionar">Adicionar ao carrinho</button>
-                            </li>
-                            <li class="card">
-                                <img src="./img/camiseta_preta.svg" alt="">
-                                <p class="categoria">Camisetas</p>
-                                <h2 class="nome">Lightweight Jacket</h2>
-                                <p class="descricao">Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
-                                <p class="preco">R$ 100.00</p>
-                                <button class="botaoAdicionar">Adicionar ao carrinho</button>
-                            </li>
-                            <li class="card">
-                                <img src="./img/gorro.svg" alt="">
-                                <p class="categoria">Camisetas</p>
-                                <h2 class="nome">Lightweight Jacket</h2>
-                                <p class="descricao">Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
-                                <p class="preco">R$ 100.00</p>
-                                <button class="botaoAdicionar">Adicionar ao carrinho</button>
-                            </li>
+                    <section class="pratos">
+                        <ul class="cards"></ul>
                     </section>
-                    <section class="camisetas">
+                    <section class="salgados">
+                        <ul class="cards"></ul>
+                    </section>
+                    <section class="doces">
+                        <ul class="cards"></ul>
                     </section>
                 </div>
                 <section class="containerPesquisaECarrinho">
                     <div class="pesquisa">
-                        <input type="text" name="pesquisa" id="pesquisa" placeholder="Digite aqui sua pesquisa"></inputv>
+                        <input type="text" name="pesquisa" class="pesquisar" placeholder="Digite aqui sua pesquisa"></inputv>
                         <button class="botaoPesquisar">Pesquisar</button>
                     </div>
+                    <h1 class="carrinhoTitulo">Carrinho de compras</h1>
                     <div class="carrinho">
-                        <p class="carrinhoTitulo">Carrinho de compras</p>
-                        <ul class="listaCarrinho">
-                            <li class="produtoCarrinho">
-                                <h1>Carrinho vazio</h1>
-                                <p>Adicione itens</p>
-                            </li>
-                        </ul>
+                        <ul class="listaCarrinho"></ul>
+                    </div> 
+                    <div class="quantidadeETotal">
                         <div>
                             <p class="quantidade">Quantidade:</p>
                             <p class="numeroQuantidade">0</p>
                         </div>
                         <div>
                             <p class="total">Total:</p>
-                            <p class="valorTotal">R$ 0.00</p>
-                        </div>
-                    </div>   
+                            <p class="valorTotal">0</p>
+                        </div>  
+                        </div> 
                 </section>
             </main>
         </div>
 </body>
 </html>
+
+
